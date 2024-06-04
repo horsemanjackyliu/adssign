@@ -1,0 +1,22 @@
+{
+  "welcomeFile": "uimodule/index.html",
+  "authenticationMethod": "none",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/adobeapi/(.*)$",
+      "target": "$1",
+      "authenticationType": "xsuaa",
+      "csrfProtection": false,
+      "destination": "adobeapi"
+    },
+    {
+      "source": "^/uimodule/(.*)$",
+      "target": "$1",
+      "authenticationType": "none",
+      "localDir": "uimodule/webapp"
+    }
+  ]
+}

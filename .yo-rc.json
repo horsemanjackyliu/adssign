@@ -1,0 +1,23 @@
+{
+  "generator-template-ui5-project": {
+    "projectname": "adssign",
+    "namespaceUI5": "com.sap",
+    "enableFPM": false,
+    "platform": "Application Router @ Cloud Foundry",
+    "viewtype": "XML",
+    "ui5libs": "Content delivery network (SAPUI5)",
+    "newdir": true,
+    "initrepo": true,
+    "namespaceURI": "com/sap",
+    "uimodules": [
+      "uimodule"
+    ],
+    "opa5Journeys": [
+      "Main"
+    ],
+    "opa5pos": [
+      "Main"
+    ],
+    "setupCompleted": true
+  }
+}
